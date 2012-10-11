@@ -5,7 +5,7 @@
 
 * Что значит нужно ???
 
-[![Foo](http://www.proza.ru/pics/2010/10/05/1051.jpg)](http://google.com.au/)
+[![Foo](http://www.proza.ru/pics/2010/10/05/1051.jpg)](http://google.de/)
 
 Локальная ветка у teddypickerfromul - *feature*
 
