@@ -17,6 +17,6 @@ urlpatterns = patterns('',
 )
 
 # Uncomment these two lines to enable your static files on PythonAnywhere
-#from django.contrib.staticfiles.urls import staticfiles_urlpatterns
-#urlpatterns += staticfiles_urlpatterns()
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+urlpatterns += staticfiles_urlpatterns()
 
