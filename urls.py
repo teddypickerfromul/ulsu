@@ -4,10 +4,13 @@ from django.conf.urls.defaults import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
+from tasker import urls as tasker_urls
+
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'ulsu.views.home', name='home'),
     # url(r'^ulsu/', include('ulsu.foo.urls')),
+    url (r'^tasker/', include(tasker_urls)),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
